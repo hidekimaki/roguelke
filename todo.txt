@@ -1,0 +1,44 @@
+Battle System
+
+-> Player turn 
+    -> Execute Player action 
+    -> Calculate Damage of Attack
+
+-> Enemy turn
+    -> Execute all enemy "AI"
+
+-> End turn 
+    -> Execute all DOT effects
+    -> Execute all delayed effects (heal, apply new buff, etc)
+    -> Remove expiring buffs/ Remove one stack of each buff
+
+-> Target Aggro system
+
+-> Critical star generation
+
+-> Critical star distribution
+
+
+
+Upgrade loop system
+
+-> Material List (Inventory)
+    -> Wood, cotton, silk, paper, glue, metal, plastic, paint.
+
+-> Battle drop (Pre determined)
+
+-> Cosplay List
+
+    Cosplay will determine ultimate and equipment type.
+
+-> Cosplay Selection (Pre run)
+
+
+-> Cards Selection (Pre run)
+
+    Equipment has main stat and sub stats and type 
+
+-> Cards Creation (Random atb) (Pre run)
+
+-> Set Bonus for equipments
+
