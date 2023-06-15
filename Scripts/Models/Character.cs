@@ -33,7 +33,7 @@ public abstract class Character : ScriptableObject
 
     public void NeutralAction()
     {
-        if (this.CharacterNeutralAction[0] = true)
+        if (this.CharacterNeutralAction[0] == true)
         {
             this.atributes.HEALTH += this.BaseAtributes.ATB[CharactersAtributtes.VITALITY];
             if (this.atributes.HEALTH > this.BaseAtributes.HEALTH)
@@ -41,7 +41,7 @@ public abstract class Character : ScriptableObject
                 this.atributes.HEALTH = this.BaseAtributes.HEALTH;
             }
         }
-        if (this.CharacterNeutralAction[1] = true)
+        if (this.CharacterNeutralAction[1] == true)
         {
             this.atributes.POSTURE += this.BaseAtributes.ATB[CharactersAtributtes.RESISTANCE];
             if (this.atributes.POSTURE > this.BaseAtributes.POSTURE)
@@ -49,7 +49,7 @@ public abstract class Character : ScriptableObject
                 this.atributes.POSTURE = this.BaseAtributes.POSTURE;
             }
         }
-        if (this.CharacterNeutralAction[2] = true)
+        if (this.CharacterNeutralAction[2] == true)
         {
             this.atributes.ULTIMATE_POTENCY += this.BaseAtributes.ATB[CharactersAtributtes.MANA];
             if (this.atributes.ULTIMATE_POTENCY > this.BaseAtributes.ULTIMATE_POTENCY)
